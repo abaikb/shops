@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IAddToCartIconProps } from '@/types/elements'
 
 const AddToCartIcon = ({
+const flag = () => {
+ return isProductInCart;
+}
   isProductInCart,
   addedClassName,
   className,
